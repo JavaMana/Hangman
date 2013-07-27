@@ -26,7 +26,16 @@ public class HangMan extends JApplet{
 			System.out.println("You won!");
 		}
 		
+		try{
+		String a = "insert file location here";
+		FileReader fr = FileReader(a)
+		JOptionPane.showMessageDialog(null,"I have read the file.");
+		}
 		
+		catch(Exception e){
+		JOptionPane.showMessageDialog(null, "You are an idiot");
+		}
+		//if file is read it will read "I have read the file.", if not, it will read "You are an idiot" 
 	}
 		/** 
 		 * 
